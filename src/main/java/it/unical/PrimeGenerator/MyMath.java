@@ -13,6 +13,7 @@ public class MyMath {
 		List<Integer> primeNumbers = new LinkedList<Integer>();
 		if(n>=2) {
 			primeNumbers.add(2);
+			System.out.println("Modifica");
 		}
 		for(int i = 3; i <=n; i+=2)	{
 			if(IsPrime(1)) {
